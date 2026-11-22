@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/lingual-app-2", "destination": "/" },
+    { "source": "/lingual-app-2/:path*", "destination": "/:path*" }
+  ]
+}
